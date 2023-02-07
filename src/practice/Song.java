@@ -2,16 +2,13 @@ package practice;
 
 public class Song {
 
-  public String title;
-  public String artist;
-  public int year;
-  public String country;
+  private String title;
+  private String artist;
+  private int year;
+  private String country;
 
-  public Song() {
-    title = "제목 미상";
-    artist = "가수 미상";
-    country = "국적 미상";
-  }
+  //생성자 오버로딩
+  public Song() {}
 
   public Song(String title, String artist, int year, String country) {
     this.title = title;
